@@ -81,8 +81,6 @@ async function bootstrap() {
 
   const newCommentComponent = new NewCommentComponent(user, submit);
   timeline.element.appendChild(newCommentComponent.element);
-
-
 }
 
 bootstrap();
